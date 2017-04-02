@@ -5,6 +5,7 @@
         <title>Gliphy</title>
         <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="assets/css/skeleton.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
         <!-- .container is main centered wrapper -->
@@ -12,16 +13,31 @@
 
             <div class="u-full-width">
                 <div class="tweleve column">
-                    <pre><code><h1> Gliphy ahhhhhh </h1></code></pre>
+                    <pre><code><h1> Fun with Giphy</h1></code></pre>
+                </div>
             </div>
-        </div>
+
+            <div class="row">
+                <div id="addButton" class="tweleve column"></div>
+            </div>
+
   <!-- columns should be the immediate child of a .row -->
         <div class="row">
             <div class="four column">
-                <a class="button button-primary" href="#">This will populate</a>
+                 <input class="u-full-width" type="text" placeholder="Search an animal for giphy!" id="giphyInput">
+                 <a id="search" class="button button-primary" href="#">Search</a>
             </div>
         </div>
+        <div class="row">
+            <div id="showImage" class="tweleve column"></div>
+        </div>
+
     </div>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
     </body>
 
 </html>
